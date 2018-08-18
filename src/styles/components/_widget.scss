@@ -1,0 +1,29 @@
+//widget header
+.widget-header {
+    background: $blue;
+    color: $off-white;
+
+    //flexbox to align elements in grids
+    display: flex;
+    justify-content: space-between;
+    
+    padding: $m-size; //equal padding on both axis
+}
+
+//get rid of h3 margins specific to this widget
+.widget-header__title {
+    margin: 0;
+}
+
+.widget {
+    background: $light-blue;
+    margin-bottom: $xl-size;
+}
+
+.widget-message {
+    text-align: center;
+    padding: $l-size;
+    margin: 0;
+    color: $off-white;
+    border-bottom: .1rem solid lighten($color: $light-blue, $amount: 10%)
+}

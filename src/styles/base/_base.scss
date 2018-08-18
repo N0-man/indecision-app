@@ -1,0 +1,22 @@
+//partial style sheets are named with an _
+//fonts will be searched in a sequence
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+    background-color: $dark-blue;
+}
+
+//set cursor to hand pointer
+button {
+    cursor: pointer;
+}
+
+//set cursor to default i.e. pointer
+button:disabled {
+    cursor: default;
+}
